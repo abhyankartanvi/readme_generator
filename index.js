@@ -67,7 +67,9 @@ const questions = [
 ];
 
 function init() {
-  inquirer.prompt(questions);
+  inquirer.prompt(questions).then(function (answers) {
+    console.log(answers);
+  });
 }
 
 init();
