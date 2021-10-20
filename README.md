@@ -7,6 +7,10 @@ https://img.shields.io/badge/license-undefined-blue
 
 Creating a simple read me generator
 
+## Video presentation:
+
+https://watch.screencastify.com/v/5PGWt09s87wpMsIImI30
+
 ## Installation:
 
 - Download it through Github
