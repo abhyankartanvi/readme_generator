@@ -1,33 +1,26 @@
-##Project-Title: Read Me Generator
+##Project-Title: Read Me generator
 
 ##Licensing:
 https://img.shields.io/badge/license-undefined-blue
 
 ## Description:
-
-Easily creating README.MD
+  creating a simple read me generator
 
 ## Installation:
-
-Available for download through GITHUB
+  by typing node index.js
 
 ## Usage:
-
-Initiate the project by type node index.js
+  by typing node index.js
 
 ## License:
-
 undefined
 
 ## Contribution:
-
-n/a
+n/a, individual project
 
 ## Testing:
-
-By creating a README.md file
+n/a
 
 ## Questions:
-
-- Github: [abhyankar.tanvi](https://github.com/abhyankar.tanvi)
-- Email: yes, abhyankar.tanvi1993@gmail.com
+  - Github: [undefined](https://github.com/undefined)
+  - Email: yes, abhyankar.tanvi1993@gmail.com 
