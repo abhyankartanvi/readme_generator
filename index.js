@@ -1,11 +1,12 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
+const generateReadMe = require("./generatereadme");
 
 const questions = [
   // project title
   {
     type: "input",
-    name: "project-title",
+    name: "title",
     message: "What is your project-title?",
   },
   // description
@@ -66,9 +67,20 @@ const questions = [
   },
 ];
 
+function writeToFile(file, data) {
+  fs.writeFile(file, data, (err, result) => {
+    if (err) {
+      console.log(err);
+      return;
+    }
+    result = console.log("README file has generated");
+  });
+}
+
 function init() {
   inquirer.prompt(questions).then(function (answers) {
     console.log(answers);
+    writeToFile("README.md", generateReadMe(answers));
   });
 }
 

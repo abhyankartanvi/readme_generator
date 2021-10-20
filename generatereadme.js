@@ -1,8 +1,7 @@
 // https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
 
 function generateReadMe(info) {
-  return `
-##Project-Title: ${info.project - title}
+  return `##Project-Title: ${info.title}
 
 ##Licensing:
 https://img.shields.io/badge/license-${info.licensing}-blue
